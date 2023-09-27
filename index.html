@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Font awesome icons -->
+    <script
+      src="https://kit.fontawesome.com/6a309e1749.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!--CSS LINK-->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- JavaScript Link -->
+    <!-- <script src="app.js"></script> -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Age Calculator</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <h1>Age Calculator</h1>
+      </header>
+
+      <div class="date-birth">
+        <label for="inputDate">Enter your Date of Birth</label>
+        <input type="date" id="inputDate" value="2000-01-01" />
+      </div>
+      <br />
+
+      <div class="curent-date">
+        <label for="cdate">Current Date</label>
+        <input type="date" id="cdate" value="" />
+      </div>
+
+      <div class="buton">
+        <button type="button" onclick="getDOB()">Calculate</button>
+      </div>
+
+      <div id="text"></div>
+      <script src="app.js"></script>
+    </div>
+  </body>
+</html>
